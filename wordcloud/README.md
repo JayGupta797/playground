@@ -1,6 +1,6 @@
 # Word Cloud
 
-This collection of script yields a word cloud super-imposed on a background image. 
+This collection of scripts yields a word cloud super-imposed on a background image. 
 All tooling is provided by Andreas Mueller's wordcloud library. 
 
 ## Installation
