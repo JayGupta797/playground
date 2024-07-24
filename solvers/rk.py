@@ -1,10 +1,5 @@
-'''
-NAME: rk.py
-DESCRIPTION: This program implements the Runge-Kutta numerical integration method to solve an explicit ODE.
-It reads the Butcher tableau from an external file to define the coefficients for the integration scheme. 
-The program defines the ODE, initializes the variables, and performs the integration for one time step.
-The result after one time step is printed as output.
-'''
+#!/usr/bin/env python
+# coding: utf-8
 
 # Import libraries
 import numpy as np
