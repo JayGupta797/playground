@@ -1,9 +1,9 @@
 # Word Cloud
 
-This collection of scripts yields a word cloud that may be super-imposed on a background image. 
+This collection of scripts yields a word cloud super-imposed on a background image. 
 The first step is to provide a text file and background image. 
 The next step is to process those assets.
-For instance, this could involve removing stopwords or blank space from the background image.
+Here, we remove stopwords from the text and blank space from the background image.
 Finally, we use the cleaned assets to generate the wordcloud.
 All tooling is provided by Andreas Mueller's wordcloud library. 
 
