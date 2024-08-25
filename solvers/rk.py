@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Import libraries
 import numpy as np
 
 def read_butcher_tableau(filename):
