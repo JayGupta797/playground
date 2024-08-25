@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Import string utility
 from boltons.strutils import split_punct_ws
 
 # Read Sanskrit text from file

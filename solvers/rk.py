@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Import libraries
 import numpy as np
 
 def read_butcher_tableau(filename):
@@ -15,17 +14,7 @@ def f(x, y):
     return x**2 + y
 
 def runge_kutta(x, y, ts, data):
-    """Performs the Runge-Kutta integration method.
-    
-    Args:
-        x: Initial x value.
-        y: Initial y value.
-        ts: Time step.
-        data: Butcher tableau data.
-    
-    Returns:
-        The updated y value after one time step.
-    """
+    """Performs one time step of runge kutta integration scheme"""
     # Initialize the list for storing k values
     kn = [f(x, y)]
     

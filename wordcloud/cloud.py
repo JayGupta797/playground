@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Import libraries
+import os
+from os import path, getcwd
+
 import numpy as np
 from PIL import Image
-from os import path, getcwd
-import os
 from wordcloud import WordCloud, ImageColorGenerator
 
 # Get the data directory
